@@ -1,0 +1,6 @@
+enum-parallel/libfplll_la-enumlib_dim.150.lo: \
+ enum-parallel/enumlib_dim.150.cpp /usr/include/stdc-predef.h \
+ enum-parallel/enumlib_dim.cpp ../fplll/fplll_config.h
+/usr/include/stdc-predef.h:
+enum-parallel/enumlib_dim.cpp:
+../fplll/fplll_config.h:

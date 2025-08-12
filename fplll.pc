@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fplll
+Description: lattice algorithms with floating-point computations
+Version: 5.5.0
+Cflags: -I${includedir} -pthread
+Libs: -L${libdir}  -lpthread -lmpfr -lgmp  -lfplll
